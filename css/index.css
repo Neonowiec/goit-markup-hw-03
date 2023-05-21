@@ -1,0 +1,231 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #f5f7fa;
+  color: #212121;
+}
+
+:root {
+  --brand-color: #2196f3;
+  --text-color: #fffafa;
+  --contact-color: #808080;
+  --background-color: #2f303a;
+  --logo-color: #000000;
+  --all-color: #212121;
+  --second-descriptions-color: #757575;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19230769231;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+
+.logo:focus,
+.logo:hover {
+  color: var(--brand-color);
+}
+
+.studio {
+  color: var(--brand-color);
+}
+
+.nav-link {
+  list-style-type: none;
+  color: var(--all-color);
+}
+
+.link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714286;
+  color: var(--all-color);
+  text-decoration: none;
+}
+
+.link:focus,
+.link:hover {
+  color: var(--brand-color);
+}
+
+.tele-number {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714286;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.tele-number:focus,
+.tele-number:hover {
+  color: var(--brand-color);
+}
+
+.mail {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714286;
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.mail:focus,
+.mail:hover {
+  color: var(--brand-color);
+}
+
+.main-div-item {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--background-color);
+}
+
+.main-title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36363636364;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.main-button_item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--text-color);
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+
+.article {
+  list-style-type: none;
+  color: var(--all-color);
+}
+
+.article h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14285714286;
+  color: var(--all-color);
+}
+
+.article p {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71428571429;
+  color: var(--contact-color);
+}
+
+.second-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16666666667;
+  color: var(--all-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.photo-descriptions p {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: var(--all-color);
+}
+
+.second-photo-descriptions {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.1875;
+  color: var(--second-descriptions-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19230769231;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer-logo:focus,
+.footer-logo:hover {
+  color: var(--brand-color);
+}
+
+.address {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714286;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.address:focus,
+.address:hover {
+  color: var(--brand-color);
+}
+
+.link-footer {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14285714286;
+  color: var(--contact-color);
+}
+
+.link-footer:focus,
+.link-footer:hover {
+  color: var(--brand-color);
+}
+
+.portfolio-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--all-color);
+  cursor: pointer;
+}
+
+.portfolio-button:focus,
+.portfolio-button:hover {
+  color: var(--text-color);
+  background-color: var(--brand-color);
+}
+
+.portfolio-photo-descriptions {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--all-color);
+}
+
+.portfolio-second-photo-descriptions {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--second-descriptions-color);
+}
