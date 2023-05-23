@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reszta kodu */
+
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
@@ -228,4 +236,27 @@ body {
   font-size: 16px;
   line-height: 1.875;
   color: var(--second-descriptions-color);
+}
+
+.container {
+  width: 1200px;
+  background: #ffffff;
+}
+
+.section {
+  padding-block: 94px;
+}
+
+header {
+  width: 1600px;
+  height: 80px;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
 }
