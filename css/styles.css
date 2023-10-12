@@ -254,9 +254,6 @@ ol {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .footer-link {
@@ -268,7 +265,6 @@ ol {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
-    display: inline-block;
 }
 .logo-secondary-footer {
     color: #f4f4fd;
