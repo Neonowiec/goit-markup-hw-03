@@ -5,13 +5,12 @@ body {
 }
 :root {
     --brand-color: #4d5ae5;
+    --background-color: #ffffff;
+    --color-of-subtitles-color: #434455;
 }
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
     margin: 0;
 }
@@ -93,7 +92,7 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--brand-color);
     margin-right: 76px;
 }
 .link {
@@ -137,19 +136,19 @@ ol {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--background-color);
     text-wrap: wrap;
     max-width: 496px;
     margin-bottom: 48px;
 }
 .main-banner-button {
-    background-color: #4d5ae5;
+    background-color: var(--brand-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--background-color);
     cursor: pointer;
     padding: 16px, 32px, 16px, 32px;
     display: block;
@@ -194,7 +193,7 @@ ol {
     gap: 24px;
 }
 .main-list-element {
-    background-color: #ffffff;
+    background-color: var(--background-color);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -215,7 +214,7 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-of-subtitles-color);
     text-align: center;
 }
 .secondary-list-header {
@@ -256,6 +255,8 @@ ol {
     background-color: #2e2f42;
     padding: 100px 0;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .footer-link {
@@ -332,7 +333,7 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-of-subtitles-color);
 }
 .portfolio-main {
     padding-top: 96px;
