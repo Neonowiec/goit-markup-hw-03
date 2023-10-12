@@ -258,6 +258,7 @@ ol {
 
 .footer-link {
     margin-bottom: 16px;
+    display: inline-block;
 }
 .footer-description {
     line-height: 1.5;
