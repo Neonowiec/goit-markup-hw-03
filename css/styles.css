@@ -257,8 +257,10 @@ ol {
 }
 
 .footer-link {
-    display: inline-block;
     margin-bottom: 16px;
+}
+.footer-container {
+    display: inline-block;
 }
 .footer-description {
     line-height: 1.5;
